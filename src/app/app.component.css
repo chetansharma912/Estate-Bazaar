@@ -1,0 +1,70 @@
+.nav-item {
+    margin-left: 10px;
+}
+.banner-content {
+    padding: 50px;
+    .buy-sell-section {
+        margin-top: 50px;
+    }
+    .nav-item {
+        width: 46%;
+    }
+    ul {
+        /* border-bottom: 1px solid black; */
+    }
+    ul li {
+        /* background-color: black; */
+        padding: 0px;
+    }
+    .nav-link {
+        border: 1px solid #bbbbbb;
+        background-color: #f3f3f3;
+    }
+    .search-section {
+        margin-top: 20px;
+    }
+}
+.posting-section {
+    background-color: #f3f3f3;
+    padding: 30px;
+}
+.right-border {
+    border-right: 1px solid #ababab;       
+}
+span.icon svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #293c6145;
+    a {
+        color: black;
+    }
+    .nav {
+        justify-content: center;
+    }
+}
+
+.stores {
+    padding: 30px;
+    img {
+        width: 150px;
+        margin-right: 5px;
+    }
+    .report-abuse {
+        margin-top: 15px;
+        font-size: 9px;
+    }
+    border-bottom: 1px solid #c5cad4;
+}
+
+.copyright {
+    padding-top: 20px;
+    p {
+        font-size: 12px;
+    }
+}
