@@ -1,0 +1,40 @@
+.display-mobile {
+    .card {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border: 0px;
+        img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    .buysellproperty {
+        padding: 15px;
+    }
+}
+
+.footer {
+    padding: 20px;
+    background-color: #293c6145;
+    a {
+        color: black;
+    }
+    .nav {
+        justify-content: center;
+    }
+}
+
+.stores {
+    padding: 30px;
+    img {
+        width: 150px;
+        margin-right: 5px;
+    }
+    .report-abuse {
+        margin-top: 15px;
+        font-size: 9px;
+    }
+    border-bottom: 1px solid #c5cad4;
+}
+

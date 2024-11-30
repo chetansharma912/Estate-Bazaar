@@ -1,0 +1,305 @@
+<div class="row">
+    <!-- mobile header -->
+    <div class="col-md-12 display-mobile">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="btn bg-light hamburger-button" 
+                    type="button" 
+                    data-bs-toggle="offcanvas" 
+                    data-bs-target="#sidebar" >
+                    <span _ngcontent-ng-c2661757049="" class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                    </span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <h2>Estate Bazaar</h2>
+                </a>
+                <button class="btn bg-info text-danger location-button" 
+                    type="button" 
+                    data-bs-toggle="offcanvas" 
+                    data-bs-target="#location" >
+                    <span _ngcontent-ng-c2661757049="" class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    </span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="sidebar">Estate Bazaar</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <p>Login to your account</p>
+                            </div>
+                            <div class="col-4 text-right">
+                                <button class="btn btn-success login float-right" type="button">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Buy
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                        <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Sell
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                        <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                                        filled with some actual content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Rent
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                                        <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                                        happening here in terms of content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end offcanvas2" id="location">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Location</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="row location country">
+                            <div class="col-12">
+                                <h6>Country</h6>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/mumbai.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Mumbai</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/pune.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Pune</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/delhi.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Delhi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/hydrabad.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Hydrabad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row location country">
+                            <div class="col-12">
+                                <h6>Top Cities</h6>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/mumbai.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Mumbai</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/pune.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Pune</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/delhi.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Delhi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/hydrabad.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Hydrabad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row location state">
+                            <div class="col-12">
+                                <h6>State</h6>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/mumbai.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Mumbai</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/pune.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Pune</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/delhi.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Delhi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/hydrabad.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Hydrabad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row location state">
+                            <div class="col-12">
+                                <h6>City</h6>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/mumbai.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Mumbai</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/pune.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Pune</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/delhi.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Delhi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="../../../assets/images/hydrabad.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-center">Hydrabad</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        </nav>
+    </div>
+
+    <!-- desktop header  -->
+    <!-- <div class="col-md-12 display-desktop">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <h2>Estate Bazaar</h2>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            </ul>
+                            <form class="d-flex">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <select class="form-control">
+                                            <option value="">Location</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Pune">Pune</option>
+                                        </select>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="btn btn-primary" type="button">
+                                            Signup
+                                            <span class="icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 640 512">
+                                                    <path fill="#ffffff"
+                                                        d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z" />
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button class="btn btn-success" type="button">
+                                            Login
+                                            <span class="icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 512 512">
+                                                    <path fill="#ffffff"
+                                                        d="M217.9 105.9L340.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L217.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1L32 320c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM352 416l64 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c53 0 96 43 96 96l0 256c0 53-43 96-96 96l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div> -->
+</div>
