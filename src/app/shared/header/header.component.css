@@ -1,0 +1,67 @@
+.login {
+    float: right;
+}
+.nav-item {
+    margin-left: 10px;
+}
+.display-mobile {
+    padding: 0px;
+    /* box-shadow: 0px 0px 10px 1px #969696; */
+    z-index: 9999;
+    .navbar {
+        background-color: maroon !important;
+    }
+    h1 {
+        color: #969696;
+        font-family: sans-serif;
+    }
+    .navbar-brand{
+        margin: 0px;
+        .logo {
+            width: 200px;
+            height: 50px;
+        }
+        h2 {
+            padding-top: 5px;
+            font-size: 20px;
+        }
+    }
+    .offcanvas {
+        .offcanvas-header {
+            background-color: #fbfbfb;
+            box-shadow: 0px 0px 5px 0.5px #b5b5b5;
+        }
+    }
+    .hamburger-button {
+        border: 1px solid #cdcdcd;
+        /* box-shadow: 0px 0px 5px 0.1px #d8d8d8; */
+        padding: 5px 10px 10px 10px;
+        margin-left: 10px;
+    }
+    .location-button {
+        /* padding: 10px; */
+        margin-right: 10px;
+        border-radius: 100%;
+        border: 1px solid #cdcdcd;
+        box-shadow: 0px 0px 5px 0.1px #d8d8d8;
+        padding: 5px 10px 9px 10px;
+        /* opacity: 0.8; */
+    }
+    #location .location {
+        padding: 10px;
+        .card {
+            justify-content: center;
+            padding: 3px;
+            align-items: center;
+            .card-body {
+                padding: 0px;
+            }
+        }
+        img {
+            width: 50px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+}

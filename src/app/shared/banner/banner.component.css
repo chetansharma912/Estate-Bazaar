@@ -1,0 +1,57 @@
+.display-mobile {
+    /* background: #e0e0e0; */
+    box-shadow: 0px 0px 5px 0.5px #c3c3c3 inset;
+    .extraspace {
+        height: 65px;
+        background-color: red;
+        visibility: hidden;
+    }
+    .buy-sell-section {
+        margin-top: 50px;
+    }
+    h1 {
+        padding: 10px 20px;
+    }
+    .nav-item {
+        width: 46%;
+    }
+    ul {
+        justify-content: center;
+        gap: 5px;
+    }
+    ul li {
+        padding: 0px;
+    }
+    .nav-link {
+        border: 1px solid #bbbbbb;
+        background-color: #f3f3f3;
+    }
+    .search-section {
+        margin-top: 20px;
+    }
+}
+.broker-free {
+    margin-top: 35px;
+}
+.carousel-inner {
+    img {
+        height: 200px;
+    }
+}
+.carousel-indicators {
+    translate: 0px 50px;
+    button {
+        background: #f8f9fa;
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
+        padding: 0px;
+        margin: 10px;
+        opacity: 1;
+        border: 2px solid #585858;
+        
+    }
+}
+.carousel-indicators button.active {
+    background: #7d7d7d;
+}
