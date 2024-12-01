@@ -1,12 +1,78 @@
 .display-mobile {
+    .image-wrap{
+        position: relative;
+        box-shadow: 0px 0px 10px 3px #4f4f4f;
+        border-radius: 10px;
+    }
+    .image-wrap::before {
+        content: "";
+        background-color: maroon;
+        width: 33%;
+        height: 33%;
+        top: -10px;
+        position: absolute;
+        right: -10px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+    .image-wrap::after {
+        content: "";
+        width: 33%;
+        height: 33%;
+        background-color: maroon;
+        bottom:  -10px;
+        position: absolute;
+        left: -10px;
+        margin: 5px;
+        border-radius: 10px;
+    }
     .card {
         justify-content: center;
         align-items: center;
         padding: 10px;
-        border: 0px;
+        border: 1px solid #818181;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+        background-color: #e6e6e6;
+        /* border: 0px; */
         img {
-            width: 120px;
-            height: 120px;
+            /* width: 120px;
+            height: 120px; */
+            border-radius: 10px;
+            z-index: 99;
+            position: relative;
+        }
+        .card-body {
+            width: 100%;
+            padding: 0px 0px;
+            /* background: #d9d9d9; */
+            margin-top: 20px;
+            h5 {
+                border-radius: 5px;
+                background-color: #b7b7b7;
+                box-shadow: 0px 0px 5px 1px #545454;
+                button {
+                    border: none;
+                    padding: 0px;
+                    margin: 10px;
+                    background: none;
+                    border-radius: 10px;
+                }
+            }
+            .get-quote {
+                button {
+                    background-color: #b7b7b7 !important;
+                    border: 1px solid #606060;
+                    padding: 10px;
+                    margin-top: 5px;
+                    box-shadow:0px 0px 5px 1px #8c8c8c;
+                }
+                button:active {
+                    background-color: #858585 !important;
+                    border: 1px solid #333333;
+                }
+            }
         }
     }
     .buysellproperty {

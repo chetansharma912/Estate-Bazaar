@@ -1,6 +1,11 @@
 .display-mobile {
     /* background: #e0e0e0; */
     box-shadow: 0px 0px 5px 0.5px #c3c3c3 inset;
+    .extraspace {
+        height: 65px;
+        background-color: red;
+        visibility: hidden;
+    }
     .buy-sell-section {
         margin-top: 50px;
     }

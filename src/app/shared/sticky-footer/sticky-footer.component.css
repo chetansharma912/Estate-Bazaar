@@ -6,8 +6,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        background-color: navy;
         p {
             font-size: 7px;
+            color: white;
         }
     }
     button {
@@ -15,7 +17,7 @@
         padding: 10px;
     }
     .add {
-        border: 10px solid white;
+        border: 5px solid white;
         translate: 0px -30px;
         /* box-shadow: 0px 0px 10px 0.1px #c0c0c0; */
         svg {
